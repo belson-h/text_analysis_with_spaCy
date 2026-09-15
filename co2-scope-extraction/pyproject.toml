@@ -1,0 +1,9 @@
+[project]
+name = "co2-scope-extraction"
+version = "0.1.0"
+description = "Rules-based identification of CO2 emissions (Scope 1/2/3) in sustainability reports with spaCy"
+requires-python = ">=3.10"
+dependencies = [
+    "spacy>=3.7",
+    "pdfplumber>=0.11",
+]
